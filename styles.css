@@ -507,3 +507,68 @@ h2 {
     padding-bottom: 5px;
 }
 
+/* Experience Section */
+.experience-section {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+}
+
+.experience-card {
+    background-color: #fafafa;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    text-align: left;
+}
+
+.experience-card h3 {
+    color: #2c3e50;
+}
+
+.experience-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Education Section */
+.education-section {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+}
+
+.education-card {
+    background-color: #fafafa;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    text-align: left;
+}
+
+.education-card h3 {
+    color: #2c3e50;
+}
+
+.education-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .experience-card, .education-card {
+        width: 100%;
+        padding: 15px;
+    }
+}
